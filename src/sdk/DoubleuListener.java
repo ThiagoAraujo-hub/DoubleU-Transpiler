@@ -11,12 +11,12 @@ import antlr.WParser;
 import antlr.WParserBaseListener;
 import antlr.WParser.ExpressionContext;
 import antlr.WParser.PairContext;
+import handlers.ContextErrorHandler;
+import handlers.ExpressionHandler;
+import handlers.LiteralHandler;
+import handlers.MathOperationsHandler;
 import sdk.enums.DoubleuTypes;
 import sdk.enums.Scopes;
-import handler.ContextErrorHandler;
-import handler.ExpressionHandler;
-import handler.LiteralHandler;
-import handler.MathOperationsHandler;
 
 public class DoubleuListener extends WParserBaseListener {
     // Controle de escopo

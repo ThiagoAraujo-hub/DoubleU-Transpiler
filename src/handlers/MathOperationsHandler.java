@@ -1,4 +1,4 @@
-package handler;
+package handlers;
 
 import sdk.enums.DoubleuLogicalOperators;
 import sdk.enums.DoubleuMathOperators;

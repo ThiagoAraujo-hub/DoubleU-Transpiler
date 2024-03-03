@@ -1,4 +1,4 @@
-package handler;
+package handlers;
 
 import java.util.ArrayList;
 import java.util.List;
