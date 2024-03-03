@@ -1,0 +1,8 @@
+list<string> nomes = ["Thiago", "Vanessa"]
+
+object pessoa = {
+    string nome: "Thiago",
+    integer age: 26
+}
+
+string nome = pessoa.nome
